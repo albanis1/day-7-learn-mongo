@@ -1,0 +1,14 @@
+####
+POST http://localhost:7777/product/create?collection=[{"name": "qqqqqrtrtrtCelaqwena2","category": "Celana","price": 2000},{"name": "Ceeqwlana3","category": "Celana","price": 5000}]
+Content-Type: application/x-www-form-urlencoded
+###
+GET http://localhost:7777/product/read
+###
+GET http://localhost:7777/product/read?id=["5ffd425f97fa7435609d5c15","5ffd4724c680fd36280be037"]
+###
+DELETE http://localhost:7777/product/delete?id=["5ffd7366dc23482b0c02a472","5ffd7366dc23482b0c02a473"]
+
+###
+PUT http://localhost:7777/product/update?collection=["Kemeja"]&price=3000
+####
+PUT http://localhost:7777/product/update?name=Kemeja&category=Kemeja&price=2000&id=5ffd58f4a9baa130ccc4d789

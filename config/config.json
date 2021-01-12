@@ -1,0 +1,11 @@
+{
+    "mongoConfig":{
+      "url": "mongodb://localhost:27017/mDB"
+    },
+    "redis":{
+      "port": 6379
+    },
+    "JWT_TOKEN":{
+      "ACCESS_TOKEN_SECRET" : "0e31935e6fbb1cd8b3fa33c5617e63857841e2a6919bc5b2529b4b0e732d84aca5aad11c25c7df62c0834a7fa7b873ed50b71ac00655f1fe2eef7d7803440887"
+    }
+  }
